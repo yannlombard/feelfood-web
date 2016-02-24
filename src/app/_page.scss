@@ -1,0 +1,70 @@
+@import 'vars';
+
+.page {
+  padding-top: $homeHeight + 20px;
+  font-family: $nimbus;
+  margin-bottom: 100px;
+
+  .title1 {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 700px;
+    font-size: 20px;
+    font-weight: 200;
+
+    h2 {
+      display: inline-block;
+      vertical-align: middle;
+
+      margin: 0;
+
+      font-size: 40px;
+      font-weight: 200;
+      text-transform: uppercase;
+
+      strong {
+        font-weight: 900;
+      }
+    }
+
+    p {
+      margin: 0em 0 2em;
+    }
+
+  }
+
+  .title2 {
+    background: #EEE;
+
+    /*position: relative;
+    background: no-repeat url(../assets/images/DHHQbqc0RrWVf0uDNe5E_TheLitteCafe.jpg  ) center center;
+    background-size: cover;
+    color: #FFF;
+
+    &:before {
+      content: '\0020';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+      background: #000;
+      @include opacity(0.6);
+    }
+
+    .title1 {
+      position: relative;
+      z-index: 2;
+    }*/
+  }
+
+  .callToAction {
+    position: relative;
+    background: $red;
+    color: $white;
+    left: 0;
+    margin: 1em 0 0;
+  }
+
+}

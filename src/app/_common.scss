@@ -1,0 +1,36 @@
+@import 'vars';
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+/*
+$freeSize: 80px;
+.free {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: block;
+  margin: ($freeSize/-2) 0 0 ($freeSize/-2);
+  width: $freeSize;
+  height: $freeSize;
+
+  background: $red;
+  color: $white;
+  font: 400 0.5em/1 $sarina;
+
+  line-height: $freeSize;
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+
+  @include border-radius(200px);
+  @include transform(rotate(-10deg));
+}*/

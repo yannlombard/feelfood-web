@@ -1,0 +1,171 @@
+<!doctype html>
+<html ng-app="feelfoodWeb">
+<head>
+    <meta charset="utf-8">
+    <title>Feel Food pour les entreprises</title>
+    <meta name="description" content="Tous les jours pour déjeuner, un food&nbsp;truck différent au&nbsp;pied&nbsp;de&nbsp;votre&nbsp;entreprise.">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>-->
+    <meta name="viewport" content="width=700, user-scalable=no"/>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <script src="//use.typekit.net/niy6nvs.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }</script>
+
+    <link rel="stylesheet" href="app/hover-min.css"/>
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if(d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.3&appId=1459559780935638";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="container">
+
+    <h1>
+        <img src="assets/images/logo-2.png" alt="Logo Feel Food"/>
+
+        <span class="mainTitle">Feel Food</span>
+
+        <!--<span class="subtitle">L'accélérateur<br/>de Food truck</span>-->
+    </h1>
+
+    <div class="mainMenu">
+        <ul>
+            <!--<li><a href="food-truck.html">Feel food Pro</a></li>-->
+            <li><a href="food-truck.html">Je suis un food truck</a></li>
+            <!--<li><a href="food-truck.html">Signature</a></li>
+            <li><a href="#">Pro</a></li>
+            <li><a href="#">Festivals</a></li>-->
+        </ul>
+        &nbsp;
+        <!--<a href="#" class="bonusLink">Je suis un food truck</a>-->
+        <!--<a href="#" class="bonusLink">Feel Food pro</a>-->
+        <!--<a href="#" class="bonusLink">L'équipe</a>-->
+    </div>
+
+    <p class="blockletters">
+        <strong>La&nbsp;street&nbsp;food pour&nbsp;les&nbsp;pros</strong>
+        <!--<span class="eventName"></span>-->
+        <span class="baseline">Tous les jours pour déjeuner, un food&nbsp;truck différent au&nbsp;pied&nbsp;de&nbsp;votre&nbsp;entreprise.</span><!--<br/>
+        <span class="eventName">au pied de votre immeuble</span><br/>
+        <span class="eventName">...</span>-->
+    </p>
+
+    <!--<a href="#" class="callToAction">Je cherche un food truck&lt;!&ndash; <span class="free">Gratuit</span>&ndash;&gt;</a>-->
+
+    <!--<form action="food-trucks.html" class="callToActionForm">
+        <label for="adresse">Où va se passer votre événement ?</label>
+        <input type="text" name="adresse" id="adresse" placeholder="Où va se passer votre événement ?"/>&lt;!&ndash;
+        &ndash;&gt;<input type="submit" value="Rechercher"/>
+    </form>-->
+    <div class="callToActionButtons">
+        <span class="or">Etudions ensemble si votre entreprise peut recevoir un food&nbsp;truck.</span>
+        <a id="indexMailTo" href="mailto:yann%40feelfood.fr?subject=Je%20propose%20un%20emplacement%20%20pour%20un%20food%20truck%20au%20pied%20de%20mon%20entreprise&body=Feel%20Food%20a%20besoin%20des%20informations%20suivantes%20pour%20savoir%20si%20votre%20entreprise%20peut%20accueillir%20un%20food%20truck.%0A%0AMon%20nom%20%3A%20%0ANom%20de%20l'entreprise%20%3A%20%0AMon%20poste%20%3A%20%0AL'adresse%20de%20mon%20entreprise%20%3A%20%0AVos%20questions%20%C3%A9ventuelles%20%3A%20" class="callToActionButton analytics">Je propose un emplacement<!-- <span class="free">Gratuit</span>--></a>
+        <span class="or">ou appelez <strong>Yann</strong> au</span>
+        <a id="indexPhone" href="tel:+33610053738" class="callToActionButton2 analytics">06 10 05 37 38</a>
+        <span class="or2">Numéro non surtaxé. Prix d'un appel vers<br/> un mobile en France selon votre opérateur</span>
+    </div>
+
+    <!--<div class="fbWrapper">
+        <div class="fb-like" data-href="https://www.facebook.com/feelfoodfr" data-layout="box_count" data-action="like"
+             data-show-faces="true" data-share="true"></div>
+    </div>-->
+
+</div>
+
+<!--<div class="page">
+
+    <div class="title1">
+        <h2><strong>Une révolution</strong> est en marche</h2>&lt;!&ndash;
+        &ndash;&gt;<p>Les food trucks changent la donne.</p>
+    </div>
+
+    <div class="title2">
+        <div class="title1">
+
+            <h2>Ils sont <strong>tendance</strong></h2>
+            <p>Leurs camions sont uniques, leur cuisine est unique, ils rendront votre événement unique !</p>
+
+            <h2>Ils sont <strong>bon</strong></h2>
+            <p>Une carte réduite pour une qualité au top !</p>
+
+            <h2>Et ils sont <strong>accessible</strong></h2>
+            <p>Ils se déplacent la ou vous avez besoin d'eux.</p>
+        </div>
+    </div>
+
+    <div class="title1">
+        <p>Vous cherchez un ou plusieurs trucks pour un anniversaire, un séminaire, un mariage... ?</p>
+        <h2><strong>Trouvez gratuitement les food&nbsp;trucks à proximité.</strong></h2>
+
+        <a href="#" class="callToAction">Je cherche un food truck&lt;!&ndash; <span class="free">Gratuit</span>&ndash;&gt;</a>
+
+        &lt;!&ndash;<p>Remplissez ce formulaire, nous vous transmettrons par mail une liste choisie à la main des meilleurs food trucks disponibles à proximité répondant à vos critères.</p>&ndash;&gt;
+
+    </div>
+</div>-->
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-69368001-1');
+    ga('send', 'pageview');
+</script>
+
+<!-- build:js(src) scripts/vendor.js -->
+<!-- bower:js -->
+<!-- run `gulp inject` to automatically populate bower script dependencies -->
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+<script src="assets/js/main.js"></script>
+<!-- inject:js -->
+<!-- js files will be automatically insert here -->
+<!-- endinject -->
+
+<!-- inject:partials -->
+<!-- angular templates will be automatically converted in js and inserted here -->
+<!-- endinject -->
+<!-- endbuild -->
+
+</body>
+</html>
