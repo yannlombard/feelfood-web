@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Feel Food pour les entreprises</title>
-    <meta name="description" content="Tous les jours pour déjeuner, un food&nbsp;truck différent au&nbsp;pied&nbsp;de&nbsp;votre&nbsp;entreprise.">
+    <meta name="description"
+          content="Tous les jours pour déjeuner, un food&nbsp;truck différent au&nbsp;pied&nbsp;de&nbsp;votre&nbsp;entreprise.">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>-->
     <meta name="viewport" content="width=700, user-scalable=no"/>
 
@@ -35,8 +36,8 @@
 <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if(d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
+    js     = d.createElement(s);
+    js.id  = id;
     js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.3&appId=1459559780935638";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
@@ -59,6 +60,7 @@
     <div class="mainMenu">
         <ul>
             <!--<li><a href="food-truck.html">Feel food Pro</a></li>-->
+            <li><a href="#app">Télécharger l'appli</a></li>&nbsp;
             <li><a href="food-truck.html">Je suis un food truck</a></li>
             <!--<li><a href="food-truck.html">Signature</a></li>
             <li><a href="#">Pro</a></li>
@@ -86,11 +88,13 @@
         &ndash;&gt;<input type="submit" value="Rechercher"/>
     </form>-->
     <div class="callToActionButtons">
-        <span class="or">Etudions ensemble si votre entreprise peut recevoir un food&nbsp;truck.</span>
-        <a id="indexMailTo" href="mailto:yann%40feelfood.fr?subject=Je%20propose%20un%20emplacement%20%20pour%20un%20food%20truck%20au%20pied%20de%20mon%20entreprise&body=Feel%20Food%20a%20besoin%20des%20informations%20suivantes%20pour%20savoir%20si%20votre%20entreprise%20peut%20accueillir%20un%20food%20truck.%0A%0AMon%20nom%20%3A%20%0ANom%20de%20l'entreprise%20%3A%20%0AMon%20poste%20%3A%20%0AL'adresse%20de%20mon%20entreprise%20%3A%20%0AVos%20questions%20%C3%A9ventuelles%20%3A%20" class="callToActionButton analytics">Je propose un emplacement<!-- <span class="free">Gratuit</span>--></a>
+        <span class="or" style="max-width:400px;margin: 0 auto;">Etudions ensemble ce qui vous ferait plaisir et si votre entreprise peut recevoir un food&nbsp;truck. 100% gratuit.</span>
+        <a id="indexMailTo"
+           href="mailto:yann@feelfood.fr?subject=Un%20food%20truck%20au%20pied%20de%20mon%20entreprise&amp;body=Feel%20Food%20a%20besoin%20des%20informations%20suivantes%20pour%20savoir%20si%20votre%20entreprise%20peut%20accueillir%20un%20food%20truck.%0A%0AMon%20nom%20%3A%20%0ANom%20de%20l'entreprise%20%3A%20%0AL'adresse%20de%20l'entreprise%20%3A%20%0AMon%20poste%20%3A%20%0AQuestions%20%C3%A9ventuelles%20%3A%20%0A%0ANous%20accuserons%20r%C3%A9ception%20de%20votre%20demande%20sous%201h%20et%20vous%20transmettrons%20ensuite%20une%20liste%20de%20food%20trucks%20potentiels%20s%C3%A9lectionn%C3%A9s%20par%20nos%20soins."
+           class="callToActionButton analytics">Faire venir un food truck<!-- <span class="free">Gratuit</span>--></a>
         <span class="or">ou appelez <strong>Yann</strong> au</span>
         <a id="indexPhone" href="tel:+33610053738" class="callToActionButton2 analytics">06 10 05 37 38</a>
-        <span class="or2">Numéro non surtaxé. Prix d'un appel vers<br/> un mobile en France selon votre opérateur</span>
+        <!--<span class="or2">Numéro non surtaxé. Prix d'un appel vers<br/> un mobile en France selon votre opérateur</span>-->
     </div>
 
     <!--<div class="fbWrapper">
@@ -98,6 +102,38 @@
              data-show-faces="true" data-share="true"></div>
     </div>-->
 
+    <div class="suite" id="app">
+        <div class="suiteWrapper">
+            <h2>
+                <span class="downloadMessage">
+                    <span class="span1">Télécharger</span>
+                    <span class="span2">l'application</span>
+                    <span class="span3">Feel&nbsp;Food</span>
+                    <img src="assets/images/logo-2.png" alt="Feel Food"/>
+                </span>
+            </h2>
+
+            <ol>
+                <li><span>Les menus du jour <br>à proximité</span></li>
+                <li><span>Commandez <br>facilement</span></li>
+                <li><span>Toutes les infos <br>des food&nbsp;trucks</span></li>
+            </ol>
+
+            <div class="appButtons">
+                <a class="appStore" href="https://itunes.apple.com/fr/app/feel-food/id1074223769"><img
+                        alt="Télécharger dans l'App Store"
+                        src="assets/svg/app-store.svg"/></a>
+                <a href="https://play.google.com/store/apps/details?id=com.ylo.feelfood&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img
+                        alt="Appli Android sur Google Play"
+                        src="https://play.google.com/intl/en_us/badges/images/apps/fr-play-badge.png"/></a>
+            </div>
+
+            <div class="iphones">
+                <img src="assets/images/iphone-view-2.png" alt="" class="iphone2">
+                <img src="assets/images/iphone-view-1.png" alt="" class="iphone1">
+            </div>
+        </div>
+    </div>
 </div>
 
 <!--<div class="page">
@@ -141,9 +177,9 @@
                     (b[l].q = b[l].q || []).push(arguments)
                 });
         b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
+        e      = o.createElement(i);
+        r      = o.getElementsByTagName(i)[0];
+        e.src  = '//www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e, r)
     }(window, document, 'script', 'ga'));
     ga('create', 'UA-69368001-1');

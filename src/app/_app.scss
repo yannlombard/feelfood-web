@@ -1,0 +1,127 @@
+.suite {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.suiteWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  h2 {
+    margin: 0;
+    padding: 1em 0;
+
+    color: #DDD;
+
+    font: 700 60px/50px "nimbus-sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+
+    .span1,
+    .span2,
+    .span3 {
+      display: block;
+      line-height: 0.8;
+    }
+
+    .span2 {
+      font-size: 59px;
+    }
+
+    /*.span3 {
+      font-size: 77px;
+    }*/
+
+    .span3 {
+      display: none;
+    }
+
+    .downloadMessage {
+      display: inline-block;
+      vertical-align: top;
+      position: relative;
+    }
+
+    img {
+      display: block;
+      position: absolute;
+      left: 100%;
+      top: 50%;
+      @include transform(translateY(-50%));
+      margin-left: 20px;
+      width: 80px;
+      @include border-radius(10px);
+    }
+  }
+
+  ol,
+  ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 1em 0;
+    color: $red;
+  }
+  ul {
+    list-style: square;
+  }
+
+  li {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 15px 0;
+
+    span {
+      display: inline-block;
+      vertical-align: bottom;
+
+      color: #888;
+
+      font-size: 20px;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+  }
+
+  .appButtons {
+    text-align: center;
+
+    a {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .appStore img {
+      height: 61px;
+    }
+    img {
+      height: 70px;
+    }
+  }
+
+  .iphones {
+    overflow: hidden;
+    text-align: center;
+    margin: 2em 0 0;
+
+    img {
+      display: inline-block;
+      vertical-align: bottom;
+      margin-bottom: -125px;
+    }
+  }
+
+  .iphone2 {
+    width: 300px;
+    margin-right: -50px;
+  }
+  .iphone1 {
+    width: 350px;
+  }
+}
+

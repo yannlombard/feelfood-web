@@ -13,7 +13,7 @@ module.exports = function(options) {
       options.tmp + '/serve/{app,components}/**/*.html'
     ])
       .pipe($.htmlmin({
-        collapseWhitespace: true
+        collapseWhitespace: false
       }))
       .pipe($.angularTemplatecache('templateCacheHtml.js', {
         module: 'feelfoodWeb'
@@ -49,7 +49,7 @@ module.exports = function(options) {
       .pipe($.useref())
       .pipe($.revReplace())
       .pipe(htmlFilter)
-      .pipe($.htmlmin({collapseWhitespace: true}))
+      .pipe($.htmlmin({collapseWhitespace: false}))
       .pipe(htmlFilter.restore())
       .pipe(gulp.dest(options.dist + '/'))
       .pipe($.size({ title: options.dist + '/', showFiles: true }));
