@@ -1,0 +1,51 @@
+@import 'vars';
+
+.bgWrapper {
+  background: no-repeat url(../assets/images/parked-bike.jpeg) center center;
+  background-size: cover;
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  a {
+    display: inline-block;
+    vertical-align: middle;
+    @include box-sizing(border-box);
+
+    $borderWidth: 3px;
+
+    border: $borderWidth solid #fff;
+    padding: 0 30px;
+
+    height: $logoHeight;
+
+    color: #fff;
+    font: normal 16px/1 $nimbus;
+    line-height: $logoHeight - 2 * $borderWidth;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    @include transition(all 200ms);
+
+    &:hover {
+      background: $red;
+      border-color: $red;
+      color: #fff;
+    }
+  }
+}
+
+.baseline {
+  padding: 10px;
+}

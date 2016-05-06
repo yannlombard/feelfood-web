@@ -17,8 +17,8 @@ module.exports = function() {
     var globs = ['./dist/**'];
 
     return gulp.src(globs, {base: './dist/', buffer: false})
-      .pipe(conn.differentSize('www/'))
-      .pipe(conn.dest('www/'));
+      .pipe(conn.differentSize(keys.ftp.path))
+      .pipe(conn.dest(keys.ftp.path));
   });
 
 };
